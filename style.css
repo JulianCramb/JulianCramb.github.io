@@ -1,0 +1,51 @@
+
+#map {
+  height: 800px; /* Adjust the height as needed */
+  width: 100%
+}
+
+h1, h2, p {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #e44d26;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+p {
+  color: gray;
+}
+
+.custom-center {
+  text-align: center;
+}
+
+.highlight-row {
+  background-color: #ffc107;
+}
+
+#navbarNav {
+  border-bottom: 2px solid orange;
+}
+
+.col-md-5 img {
+  border: 2px solid #007bff;
+}
+.col-md-6 img {
+  border: 2px solid #007bff;
+}
+.col-md-10 img {
+  border: 2px solid #007bff;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=styles.css.map */
